@@ -123,12 +123,19 @@ nav ul li a:hover {
 .hero h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
 }
 
 .hero p {
     font-size: 1.1rem;
     max-width: 800px;
     margin: 0 auto 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 8px;
 }
 
 .home-sections {
@@ -245,7 +252,6 @@ nav ul li a:hover {
 .home-sections li {
     margin-bottom: 0.5rem;
     padding: 0.5rem;
-    background-color: transparent;
     border-radius: 4px;
     box-shadow: none;
 }
@@ -257,6 +263,10 @@ nav ul li a:hover {
 
 .home-sections a:hover {
     text-decoration: underline;
+}
+
+.quick-links a {
+    color: #fff;
 }
 
 .home-info {
